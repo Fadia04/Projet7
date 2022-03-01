@@ -1,10 +1,12 @@
 import googlemaps
 
+import os
+
 
 class Google_API:
     def __init__(self, keyword):
-
-        gmaps = googlemaps.Client(key="")
+        google_api_key = os.getenv("GOOGLE_SECRET_KEY")
+        gmaps = googlemaps.Client(key=google_api_key)
         self.geocode_result = gmaps.geocode(keyword)
 
     def get_coordinates(self):

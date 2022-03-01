@@ -33,7 +33,7 @@ const msgerChat = get(".msger-chat");
 
 
 const BOT_IMG = " https://www.freepng.fr/png-dezsgn/";
-const PERSON_IMG = "https://cdn.w600.comps.canstockphoto.fr/brun-lignes-visage-rond-dessin-anim%C3%A9-illustration_csp64434926.jpg";
+const PERSON_IMG = "https://img1.freepng.fr/20180811/hlb/kisspng-computer-icons-clip-art-online-chat-internet-bot-s-robot-face-icon-free-of-78-free-vector-emoji-5b6f90c3d8e580.1587807415340382118884.jpg";
 const BOT_NAME = "GRANDPYBOT";
 const PERSON_NAME = "USER";
 

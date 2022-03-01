@@ -104,7 +104,10 @@
   .left-msg .msg-bubble {
     border-bottom-left-radius: 0;
   }
-  
+
+  .left-msg .msg-img {
+  margin: 0 0 0 10px;
+  }
   .right-msg {
     flex-direction: row-reverse;
   }
