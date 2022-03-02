@@ -22,4 +22,4 @@ def handle_question():
     return jsonify({"status": "nok", "message": choice(negative_responses)})
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
