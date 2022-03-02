@@ -3,6 +3,7 @@ from classes.manager import Manager
 from classes.messages import negative_responses
 from random import choice
 import json
+import os
 
 app = Flask(__name__)
 
