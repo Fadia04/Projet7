@@ -1,3 +1,4 @@
+"""
 import pytest
 
 import views
@@ -8,4 +9,4 @@ from views import app
 def client():
     views = app({"TESTING": True})
     with views.test_client() as client:
-        yield client
+        yield client"""

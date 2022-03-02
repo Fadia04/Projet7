@@ -1,3 +1,4 @@
+"""
 from tests.conftest import client
 
 
@@ -38,4 +39,4 @@ def test_should_return_response(monkeypatch):
 	data = response.data.decode()
 	monkeypatch.setattr("classes.manager.Manager.get_response", mock_get_response)
 	
-	assert data.status_code== "OK"
+	assert data.status_code== "OK" """
